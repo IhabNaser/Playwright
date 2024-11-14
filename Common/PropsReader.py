@@ -4,7 +4,7 @@ props_configs = Properties()
 expected_configs = Properties()
 
 # app-properties
-with open('C:/Users/Ihab/IdeaProjects/Playwright/Models/Locators/shopping_page_locators.properties',
+with open('../Models/Locators/shopping_page_locators.properties',
           'rb') as config_file:
     props_configs.load(config_file)
 
