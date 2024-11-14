@@ -3,8 +3,7 @@ from jproperties import Properties
 creds_configs = Properties()
 
 # app-properties
-# with open('./Properties/app.properties', 'rb') as config_file:
-with open('C:/Users/Ihab/IdeaProjects/Playwright/Properties/app.properties', 'rb') as config_file:
+with open('../Properties/app.properties', 'rb') as config_file:
     creds_configs.load(config_file)
 
 webUrl = creds_configs.get("webUrl").data
