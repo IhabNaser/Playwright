@@ -2,7 +2,7 @@
 # with open('../Properties/expectedProps.properties', 'rb') as config_file:
 from Common.PropsReader import expected_configs
 
-with open('C:/Users/Ihab/IdeaProjects/Playwright/Models/Locators/shopping_page_locators.properties',
+with open('../Models/Locators/shopping_page_locators.properties',
           'rb') as config_file:
     expected_configs.load(config_file)
 
